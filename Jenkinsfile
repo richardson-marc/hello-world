@@ -16,3 +16,5 @@ stage 'build'
               "-Dsonar.pullrequest.github.repository=richardson-marc/hello-world"
           }
           sh sonarcmd
+}
+}

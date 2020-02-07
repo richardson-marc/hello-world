@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('run') {
       steps {
-        sh './hello-world.py'
+        sh './hello-world.py &'
 	sh 'curl localhost:8091'
 }
 }

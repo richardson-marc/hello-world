@@ -1,0 +1,5 @@
+node ('!master'){
+git 'https://github.com/executeautomation/CypressGitDemo.git'
+sh label: 'NMP install', script: 'npm install'
+sh label: 'run test', script: 'npx cypress run'
+}

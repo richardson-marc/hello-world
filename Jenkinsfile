@@ -4,7 +4,7 @@ pipeline {
     stage('run') {
       steps {
         sh './hello-world.py'
-	sh 'curl localhost:80'
+	sh 'curl localhost:8091'
 }
 }
 }

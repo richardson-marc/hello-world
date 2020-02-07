@@ -1,6 +1,6 @@
 {
     "devDependencies": {
-        "cypress": "3.8.1",
-	"@cypress/xvfb": "1.2.4"
+	"@cypress/xvfb": "1.2.4",
+        "cypress": "3.8.1"
     }
 }
